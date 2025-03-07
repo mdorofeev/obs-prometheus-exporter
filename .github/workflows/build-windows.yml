@@ -23,7 +23,7 @@ jobs:
 
       - name: Build executable
         run: |
-          pyinstaller --onefile obs-exporter.py
+          pyinstaller --onefile --noupx --clean obs-exporter.py
 
       - name: Upload executable to GitHub Release
         uses: softprops/action-gh-release@v2
