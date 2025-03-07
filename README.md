@@ -9,17 +9,18 @@ Exporter for OBS Studio metrics via WebSocket to Prometheus.
 
 ## Requirements
 
-- Python 3.11+
+- Python 3.11
 
 ## Installation
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Usage
 
 ```bash
-python obs_exporter.py --obs_host localhost --obs_port 4455 --prometheus_exporter_port 9000
+python obs-exporter.py --obs_host localhost --obs_port 4455 --prometheus_exporter_port 9000
 ```
 
 ### Prometheus
