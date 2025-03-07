@@ -24,7 +24,7 @@ jobs:
 
       - name: Build executable
         run: |
-          pyinstaller --onefile obs_exporter.py
+          pyinstaller --onefile obs-exporter.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
